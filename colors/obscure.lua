@@ -1,0 +1,1 @@
+require("obscure").colorscheme()
