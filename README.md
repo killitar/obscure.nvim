@@ -51,7 +51,7 @@ vim.cmd[[colorscheme obscure]]
 
 ```lua
   local default_config = {
-
+    transparent = false,
     terminal_colors = true,
     styles = {
       keywords = {},
@@ -66,7 +66,7 @@ vim.cmd[[colorscheme obscure]]
       cmp = true,
       flash = true,
       gitsigns = true,
-      hop = false,
+      hop = true,
       indent_blankline = true,
       lazy = true,
       lsp = true,
@@ -74,14 +74,13 @@ vim.cmd[[colorscheme obscure]]
       mason = true,
       mini_files = true,
       mini_icons = true,
-      navic = false,
-      neo_tree = false,
-      neorg = false,
+      navic = true,
+      neo_tree = true,
+      neorg = true,
       noice = true,
       notify = true,
-      rainbow_delimiters = false,
+      rainbow_delimiters = true,
       telescope = true,
-      treesitter = true,
     },
     highlight_overrides = {},
   }
