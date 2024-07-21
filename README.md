@@ -1,6 +1,16 @@
 # Obscure
 
-A dark [Neovim](https://github.com/neovim/neovim) theme written in [Lua](https://www.lua.org)
+A dark [Neovim](https://github.com/neovim/neovim) theme written in [Lua](https://www.lua.org), inspired by the pastel palette [mellow.nvim](https://github.com/mellow-theme/mellow.nvim) that I used for a long time.
+
+## 🔍 Gallery
+
+### Lua
+
+![Screenshot of obscure theme lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/lua.png)
+
+### Astro
+
+![Screenshot of obscure theme lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/astro.png)
 
 ## ✨ Features
 
