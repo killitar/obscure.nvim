@@ -15,7 +15,7 @@ jobs:
         id: release
         with:
           release-type: simple
-          package-name: catppuccin
+          package-name: obscure
       - uses: actions/checkout@v4
       - name: tag stable versions
         if: ${{ steps.release.outputs.release_created }}
