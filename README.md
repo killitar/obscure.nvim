@@ -50,7 +50,7 @@ vim.cmd[[colorscheme obscure]]
   <!-- config:start -->
 
 ```lua
-  local default_config = {
+  {
     transparent = false,
     terminal_colors = true,
     styles = {
@@ -88,3 +88,22 @@ vim.cmd[[colorscheme obscure]]
 
   <!-- config:end -->
 </details>
+
+### 🪓 Overriding Colors & Highlight Groups
+
+To configure a setting, you should pass that setting with the changed value following the structure of the default configuration.
+
+```lua
+require("oldworld").setup({
+    styles = {
+        booleans = { italic = true, bold = true },
+    },
+    integrations = {
+        noice = false,
+        telescope = false,
+    },
+    highlight_overrides = {
+        Comment = { bg = "#ff0000" }
+    }
+})
+```
