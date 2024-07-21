@@ -26,9 +26,9 @@ return {
   ["@constant.builtin"] = { link = "Special" },
   ["@constructor"] = { fg = p.subtext1 },
   ["@constructor.tsx"] = { fg = p.blue },
-  ["@namespace"] = { fg = p.red, italic = true }, --red
+  ["@namespace"] = { fg = p.red, italic = true },
   ["@parameter"] = { fg = p.magenta },
-  ["@property"] = { fg = p.bright_yellow }, -- default fg
+  ["@property"] = { fg = p.orange },
   ["@punctuation"] = { fg = p.subtext1 },
   ["@punctuation.delimiter"] = { fg = p.subtext1 },
   ["@punctuation.bracket"] = { fg = p.subtext1 },
