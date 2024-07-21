@@ -14,11 +14,11 @@ jobs:
       - name: panvimdoc
         uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: catppuccin
-          description: 'Soothing pastel theme for NeoVim'
+          vimdoc: obscure
+          description: 'A dark theme for NeoVim'
           pandoc: 'README.md'
           toc: true
-          version: 'nvim >= 0.8.0'
+          version: 'nvim >= 0.9.0'
           treesitter: true
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
