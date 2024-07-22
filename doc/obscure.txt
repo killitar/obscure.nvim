@@ -4,12 +4,12 @@
 Table of Contents                                  *obscure-table-of-contents*
 
 1. Obscure                                                   |obscure-obscure|
-  - 🔍 Gallery                                |obscure-obscure-🔍-gallery|
-  - ✨ Features                                |obscure-obscure-✨-features|
-  - 📦 Requirements                      |obscure-obscure-📦-requirements|
-  - ⚡️ Installation                  |obscure-obscure-⚡️-installation|
-  - 🚀 Usage                                    |obscure-obscure-🚀-usage|
-  - ⚙️ Configuration                |obscure-obscure-⚙️-configuration|
+  - Gallery                                          |obscure-obscure-gallery|
+  - Features                                        |obscure-obscure-features|
+  - Requirements                                |obscure-obscure-requirements|
+  - Installation                                |obscure-obscure-installation|
+  - Usage                                              |obscure-obscure-usage|
+  - Configuration                              |obscure-obscure-configuration|
 2. Links                                                       |obscure-links|
 
 ==============================================================================
@@ -20,7 +20,7 @@ A dark Neovim <https://github.com/neovim/neovim> theme written in Lua
 <https://github.com/mellow-theme/mellow.nvim> that I used for a long time.
 
 
-🔍 GALLERY                                    *obscure-obscure-🔍-gallery*
+GALLERY                                              *obscure-obscure-gallery*
 
 
 LUA ~
@@ -29,19 +29,19 @@ LUA ~
 ASTRO ~
 
 
-✨ FEATURES                                    *obscure-obscure-✨-features*
+FEATURES                                            *obscure-obscure-features*
 
 - Supports the latest Neovim <https://github.com/neovim/neovim> 0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0> features.
 - Terminal colors
 - Supports all major plugins
 
 
-📦 REQUIREMENTS                          *obscure-obscure-📦-requirements*
+REQUIREMENTS                                    *obscure-obscure-requirements*
 
 - Neovim <https://github.com/neovim/neovim> >= 0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0>
 
 
-⚡️ INSTALLATION                      *obscure-obscure-⚡️-installation*
+INSTALLATION                                    *obscure-obscure-installation*
 
 Install the theme using your preferred package manager, e.g. lazy
 <https://github.com/folke/lazy.nvim>
@@ -56,7 +56,7 @@ Install the theme using your preferred package manager, e.g. lazy
 <
 
 
-🚀 USAGE                                        *obscure-obscure-🚀-usage*
+USAGE                                                  *obscure-obscure-usage*
 
 
 VIM SCRIPT ~
@@ -73,7 +73,7 @@ LUA ~
 <
 
 
-⚙️ CONFIGURATION                    *obscure-obscure-⚙️-configuration*
+CONFIGURATION                                  *obscure-obscure-configuration*
 
 
   [!IMPORTANT] Set the configuration **BEFORE** loading the color scheme with
@@ -118,13 +118,13 @@ Default Options ~
 <
 
 
-🪓 OVERRIDING COLORS & HIGHLIGHT GROUPS ~
+OVERRIDING COLORS & HIGHLIGHT GROUPS ~
 
 To configure a setting, you should pass that setting with the changed value
 following the structure of the default configuration.
 
 >lua
-    require("oldworld").setup({
+    require("obscure").setup({
         styles = {
             booleans = { italic = true, bold = true },
         },
@@ -133,7 +133,7 @@ following the structure of the default configuration.
             telescope = false,
         },
         highlight_overrides = {
-            Comment = { bg = "#ff0000" }
+            Comment = { bg = "#ffffff" }
         }
     })
 <
