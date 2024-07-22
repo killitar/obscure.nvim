@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/killitar/obscure.nvim/compare/v1.1.0...v1.2.0) (2024-07-22)
+
+
+### Features
+
+* **doc:** update readme.md ([754d3e9](https://github.com/killitar/obscure.nvim/commit/754d3e92005641df27a1921c762ffade2c113ce8))
+
 ## 1.0.0 (2024-07-21)
 
 
