@@ -104,7 +104,7 @@ vim.cmd[[colorscheme obscure]]
 To configure a setting, you should pass that setting with the changed value following the structure of the default configuration.
 
 ```lua
-require("oldworld").setup({
+require("obscure").setup({
     styles = {
         booleans = { italic = true, bold = true },
     },
@@ -113,7 +113,7 @@ require("oldworld").setup({
         telescope = false,
     },
     highlight_overrides = {
-        Comment = { bg = "#ff0000" }
+        Comment = { bg = "#ffffff" }
     }
 })
 ```
