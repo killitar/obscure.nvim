@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/killitar/obscure.nvim/compare/v1.2.0...v1.3.0) (2024-07-26)
+
+
+### Features
+
+* **groups:** add option to integrate treesitter ([9fb80a5](https://github.com/killitar/obscure.nvim/commit/9fb80a57ae55e59057894d865a9923eaaee4220f))
+* **pallete:** update colors ([65705a4](https://github.com/killitar/obscure.nvim/commit/65705a4f98f1efa7064e7f546f78cea9ac8ec804))
+
 ## [1.2.0](https://github.com/killitar/obscure.nvim/compare/v1.1.0...v1.2.0) (2024-07-22)
 
 
