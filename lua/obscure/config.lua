@@ -17,6 +17,7 @@ local default_config = {
     flash = true,
     gitsigns = true,
     hop = true,
+    incline = true,
     indent_blankline = true,
     lazy = true,
     lsp = true,
