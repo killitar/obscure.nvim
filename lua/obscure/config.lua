@@ -31,6 +31,7 @@ local default_config = {
     notify = true,
     rainbow_delimiters = true,
     telescope = true,
+    treesitter = true,
   },
   highlight_overrides = {},
 }

@@ -2,7 +2,6 @@ local config = require("obscure.config")
 local editor_highlights = require("obscure.groups.editor")
 local syntax_highlights = require("obscure.groups.syntax")
 local terminal = require("obscure.terminal")
-local treesitter_highlights = require("obscure.groups.treesitter")
 
 local M = {}
 
@@ -26,6 +25,7 @@ local integrations_highlights = {
   notify = require("obscure.groups.integrations.notify"),
   rainbow_delimiters = require("obscure.groups.integrations.rainbow_delimiters"),
   telescope = require("obscure.groups.integrations.telescope"),
+  treesitter = require("obscure.groups.integrations.treesitter"),
 }
 local integrations = {}
 
@@ -45,7 +45,6 @@ end
 function M.setup()
   load_highlights(editor_highlights)
   load_highlights(syntax_highlights)
-  load_highlights(treesitter_highlights)
   for _, plugin in ipairs(integrations) do
     if plugin.enabled then
       load_highlights(plugin.highlights)
