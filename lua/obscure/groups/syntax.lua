@@ -24,7 +24,7 @@ return {
   Repeat = { fg = p.purple }, -- for, do, while, etc.
   Label = { fg = p.purple }, -- case, default, etc.
   Operator = { fg = p.yellow }, -- sizeof", "+", "*", etc.
-  Keyword = { fg = p.purple } + styles.keywords, -- any other keyword purple
+  Keyword = { fg = p.purple } + styles.keywords, -- any other keyword
   Exception = { fg = p.purple }, -- try, catch, throw
   PreProc = { fg = p.red }, -- generic Preprocessor
   Include = { fg = p.purple }, -- preprocessor #include

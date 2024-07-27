@@ -31,7 +31,7 @@ return {
   ["@lsp.type.variable"] = {}, --use treesitter styles for regular variables
   ["@lsp.mod.readonly"] = { link = "@constant" },
   ["@lsp.typemod.function.readonly"] = { fg = p.blue },
-  ["@lsp.typemod.variable.declaration"] = { fg = p.fg }, --red
+  ["@lsp.typemod.variable.declaration"] = { fg = p.fg },
   ["@lsp.typemod.class.defaultLibrary"] = { link = "@type.builtin" },
   ["@lsp.typemod.enum.defaultLibrary"] = { link = "@type.builtin" },
   ["@lsp.typemod.enumMember.defaultLibrary"] = { link = "@constant.builtin" },
