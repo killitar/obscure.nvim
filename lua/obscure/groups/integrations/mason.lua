@@ -18,6 +18,8 @@ return {
   MasonMutedBlock = { bg = p.bg, fg = p.subtext3, bold = true },
   MasonMutedBlockBold = { bg = p.yellow, fg = p.bg, bold = true },
 
+  MasonNormal = { bg = p.gray0 },
+
   MasonError = { fg = p.red },
   MasonWarning = { fg = p.yellow },
 
