@@ -7,6 +7,6 @@ return {
   MiniFilesDirectory = { link = "Directory" },
   MiniFilesFile = { fg = p.fg },
   MiniFilesNormal = { link = "NormalFloat" },
-  MiniFilesTitle = { fg = p.red },
-  MiniFilesTitleFocused = { fg = p.fg, bold = true },
+  MiniFilesTitle = { fg = p.fg },
+  MiniFilesTitleFocused = { fg = p.red, bold = true },
 }
