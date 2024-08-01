@@ -29,7 +29,6 @@ return {
   ["@lsp.type.typeAlias"] = { link = "@type.definition" },
   ["@lsp.type.unresolvedReference"] = { undercurl = true, sp = p.error },
   ["@lsp.type.variable"] = {}, --use treesitter styles for regular variables
-  ["@lsp.mod.readonly"] = { link = "@constant" },
   ["@lsp.typemod.function.readonly"] = { fg = p.blue },
   ["@lsp.typemod.variable.declaration"] = { fg = p.fg },
   ["@lsp.typemod.class.defaultLibrary"] = { link = "@type.builtin" },
@@ -46,8 +45,11 @@ return {
   ["@lsp.typemod.variable.injected"] = { link = "@variable" },
 
   -- Neovim's built-in language server client
-  LspReferenceWrite = { fg = p.purple },
-  LspReferenceText = { fg = p.purple },
-  LspReferenceRead = { fg = p.purple },
+  LspReferenceWrite = { bg = p.gray2 },
+  LspReferenceText = { bg = p.gray2 },
+  LspReferenceRead = { bg = p.gray2 },
   LspSignatureActiveParameter = { fg = p.yellow, bold = true },
+  LspCodeLens = { fg = p.subtext3 },
+  LspInlayHint = { bg = p.gray1, fg = p.subtext3 },
+  LspInfoBorder = { bg = p.bg, fg = p.gray3 },
 }
