@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/killitar/obscure.nvim/compare/v1.3.0...v1.4.0) (2024-08-02)
+
+
+### Features
+
+* **groups:** change colors for editor highlight groups ([82370ca](https://github.com/killitar/obscure.nvim/commit/82370ca06276e462733068490795e195f46d53e9))
+* **groups:** improve transparent mode ([27f0561](https://github.com/killitar/obscure.nvim/commit/27f056181b52a4360aa05d3dc7c786907d1495ed))
+* **integrations:** add integration for incline.nvim ([f15015c](https://github.com/killitar/obscure.nvim/commit/f15015c03e405de4c2bdfad2c8a23ef8972b380d))
+* **integrations:** change minifiles title color ([3f4f370](https://github.com/killitar/obscure.nvim/commit/3f4f370706c79a42017d2b178a9dec18431217ab))
+* **integrations:** change telescope title color ([7153027](https://github.com/killitar/obscure.nvim/commit/7153027ba8659b0aecbfde77f429f2455c430747))
+* **integrations:** new colors for lsp and treesitter groups ([b1cc725](https://github.com/killitar/obscure.nvim/commit/b1cc7259f394b9224e8d62110c53fabc7419bd49))
+* **integrations:** use another color for incline highlight ([8b41714](https://github.com/killitar/obscure.nvim/commit/8b41714d2ce6a27a284576f2971c9c356ac07078))
+
+
+### Bug Fixes
+
+* **groups:** fix transparent mode ([1335eaf](https://github.com/killitar/obscure.nvim/commit/1335eafccf850b657b1c375e64e0bc9700f5d020))
+
 ## [1.3.0](https://github.com/killitar/obscure.nvim/compare/v1.2.0...v1.3.0) (2024-07-26)
 
 
