@@ -42,8 +42,8 @@ return {
   NonText = { fg = p.subtext4 }, --'~' and '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., > displayed when a double-wide character doesn't fit at the end of the line).
   Normal = { fg = p.fg, bg = config.transparent and p.none or p.bg }, -- normal text
   NormalNC = { fg = p.fg, bg = config.transparent and p.none or p.bg_dark }, -- normal text
-  NormalFloat = { fg = p.fg, bg = p.gray0 }, -- Normal text in floating windows.
-  FloatBorder = { fg = p.gray3, bg = p.bg }, -- Border of floating windows.
+  NormalFloat = { fg = p.fg, bg = config.transparent and p.none or p.gray0 }, -- Normal text in floating windows.
+  FloatBorder = { fg = p.gray3, bg = config.transparent and p.none or p.bg }, -- Border of floating windows.
   Pmenu = { fg = p.fg, bg = p.black }, -- Popup menu: normal item.
   PmenuSel = { fg = p.white, bg = p.gray3 }, -- Popup menu: selected item.
   PmenuSbar = { bg = p.gray2 }, -- Popup menu: scrollbar.
