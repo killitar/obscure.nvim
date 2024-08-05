@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
   NoiceCmdlinePopup = { bg = config.transparent and p.none or p.bg_dark },

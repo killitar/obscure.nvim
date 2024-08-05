@@ -1,4 +1,4 @@
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
 
@@ -19,6 +19,7 @@ return {
   ["@lsp.type.namespace"] = { link = "@namespace" },
   ["@lsp.type.namespace.python"] = { link = "@variable" },
   ["@lsp.type.number"] = { link = "@number" },
+  -- ["@lsp.type.member"] = { link = "@property" },
   ["@lsp.type.operator"] = { link = "@operator" },
   ["@lsp.type.parameter"] = { link = "@variable.parameter" },
   ["@lsp.type.property"] = { link = "@property" },

@@ -1,4 +1,4 @@
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
   IncLineNormal = { fg = p.fg, bg = p.gray2, bold = true },

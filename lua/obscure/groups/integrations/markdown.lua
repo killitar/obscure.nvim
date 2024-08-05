@@ -1,4 +1,4 @@
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
   markdownH1 = { fg = p.bright_blue, bold = true },
