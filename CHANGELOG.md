@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/killitar/obscure.nvim/compare/v1.4.0...v1.5.0) (2024-08-14)
+
+
+### Features
+
+* **doc:** add doc to feature use pallete for other plugins ([d6fcca8](https://github.com/killitar/obscure.nvim/commit/d6fcca8f255c1c6a238c99de282094d69bd7cb70))
+* **palette:** add function to setup palette ([b8995f9](https://github.com/killitar/obscure.nvim/commit/b8995f9390d68fbd8c25cb20d99b4490130bed6f))
+
 ## [1.4.0](https://github.com/killitar/obscure.nvim/compare/v1.3.0...v1.4.0) (2024-08-02)
 
 
