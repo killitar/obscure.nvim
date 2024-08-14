@@ -117,3 +117,13 @@ require("obscure").setup({
     }
 })
 ```
+
+## 🧵 Extra
+
+You can easily use the color palette for other plugins inside your [Neovim](https://github.com/neovim/neovim) configuration:
+
+```lua
+local colors = require("obscure.palettes").get_palette("obscure") -- pass in any of the config options as explained above
+
+plugin.bg = colors.yellow
+```
