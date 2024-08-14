@@ -1,5 +1,5 @@
 local M = {}
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 function M.setup()
   vim.g.terminal_color_0 = p.black

@@ -1,4 +1,4 @@
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
   LazyDimmed = { fg = p.subtext2 },

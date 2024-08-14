@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 local styles = vim.tbl_map(function(value)
   return setmetatable(value, {
@@ -28,7 +28,7 @@ return {
   ["@constructor.tsx"] = { fg = p.blue },
   ["@namespace"] = { fg = p.red, italic = true },
   ["@parameter"] = { fg = p.magenta },
-  ["@property"] = { fg = p.orange },
+  ["@property"] = { fg = p.yellow },
   ["@punctuation"] = { fg = p.subtext1 },
   ["@punctuation.delimiter"] = { fg = p.subtext1 },
   ["@punctuation.bracket"] = { fg = p.subtext1 },
@@ -46,7 +46,7 @@ return {
   ["@variable"] = { fg = p.fg } + styles.variables,
   ["@variable.builtin"] = { fg = p.purple } + styles.variables,
   ["@variable.parameter"] = { fg = p.magenta } + styles.variables,
-  ["@variable.member"] = { fg = p.orange },
+  ["@variable.member"] = { fg = p.yellow },
   ["@variable.member.vue"] = { fg = p.bright_purple },
   ["@constructor.javascript"] = { fg = p.red },
   ["@function"] = { link = "Function" },

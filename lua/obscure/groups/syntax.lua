@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 local styles = vim.tbl_map(function(value)
   return setmetatable(value, {
@@ -15,7 +15,7 @@ return {
   String = { fg = p.green }, -- a string constant: "this is a string"
   Character = { fg = p.green }, -- a character constant: 'p', '\n'
   Number = { fg = p.magenta }, -- a number constant: 234, 0xff
-  Boolean = { fg = p.yellow } + styles.booleans, -- a boolean constant: TRUE, false
+  Boolean = { fg = p.orange } + styles.booleans, -- a boolean constant: TRUE, false
   Float = { fg = p.magenta }, -- a floating point constant: 2.3e10
   Identifier = { fg = p.fg } + styles.identifiers, -- any variable name
   Function = { fg = p.blue } + styles.functions, -- function name (also: methods for classes)
@@ -23,7 +23,7 @@ return {
   Conditional = { fg = p.blue }, -- if, then, else, endif, switch, etc.
   Repeat = { fg = p.purple }, -- for, do, while, etc.
   Label = { fg = p.purple }, -- case, default, etc.
-  Operator = { fg = p.yellow }, -- sizeof", "+", "*", etc.
+  Operator = { fg = p.purple }, -- sizeof", "+", "*", etc.
   Keyword = { fg = p.purple } + styles.keywords, -- any other keyword
   Exception = { fg = p.purple }, -- try, catch, throw
   PreProc = { fg = p.red }, -- generic Preprocessor
@@ -31,7 +31,7 @@ return {
   Define = { fg = p.red }, -- preprocessor #define
   Macro = { fg = p.red }, -- same as Define
   PreCondit = { fg = p.red }, -- preprocessor #if, #else, #endif, etc.
-  Type = { fg = p.yellow }, -- int, long, char, etc.
+  Type = { fg = p.orange }, -- int, long, char, etc.
   StorageClass = { fg = p.yellow }, -- static, register, volatile, etc.
   Structure = { fg = p.red }, -- struct, union, enum, etc.
   Special = { fg = p.blue }, -- any special symbol

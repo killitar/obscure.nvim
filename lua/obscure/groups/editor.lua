@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette")
+local p = require("obscure.palette").setup()
 
 return {
   ColorColumn = { bg = p.gray1 }, -- used for the columns set with 'colorcolumn'

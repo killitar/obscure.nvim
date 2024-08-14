@@ -1,4 +1,4 @@
-local palette = {
+return {
   bg = "#161617",
   fg = "#c9c7cd",
   subtext1 = "#b4b1ba",
@@ -32,5 +32,3 @@ local palette = {
   -- Special
   none = "NONE",
 }
-
-return palette
