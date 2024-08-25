@@ -24,7 +24,7 @@ A dark [Neovim](https://github.com/neovim/neovim) theme written in [Lua](https:/
 
 ## ⚡️ Installation
 
-Install the theme using your preferred package manager, e.g. [lazy](https://github.com/folke/lazy.nvim)
+Install the theme using your preferred package manager, e.g. [lazy](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
@@ -52,7 +52,7 @@ vim.cmd[[colorscheme obscure]]
 ## ⚙️ Configuration
 
 > [!IMPORTANT]
-> Set the configuration **BEFORE** loading the color scheme with `colorscheme obscure`
+> Set the configuration **BEFORE** loading the color scheme with `colorscheme obscure`.
 
 <details>
   <summary>Default Options</summary>
@@ -91,6 +91,7 @@ vim.cmd[[colorscheme obscure]]
       notify = true,
       rainbow_delimiters = true,
       telescope = true,
+      treesitter = true,
     },
     highlight_overrides = {},
   }
@@ -99,7 +100,7 @@ vim.cmd[[colorscheme obscure]]
   <!-- config:end -->
 </details>
 
-### 🪓 Overriding Colors & Highlight Groups
+## 🪓 Overriding Colors & Highlight Groups
 
 To configure a setting, you should pass that setting with the changed value following the structure of the default configuration.
 
@@ -118,7 +119,7 @@ require("obscure").setup({
 })
 ```
 
-## 🧵 Extra
+### Extracting colors
 
 You can easily use the color palette for other plugins inside your [Neovim](https://github.com/neovim/neovim) configuration:
 
@@ -127,3 +128,8 @@ local colors = require("obscure.palettes").get_palette("obscure") -- pass in any
 
 plugin.bg = colors.yellow
 ```
+
+## 👏 Acknowledgements
+
+- [Tokyo Night](https://github.com/folke/tokyonight.nvim)
+- [Mellow](https://github.com/mellow-theme/mellow.nvim)
