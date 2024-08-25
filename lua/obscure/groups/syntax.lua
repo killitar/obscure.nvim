@@ -31,7 +31,7 @@ return {
   Define = { fg = p.red }, -- preprocessor #define
   Macro = { fg = p.red }, -- same as Define
   PreCondit = { fg = p.red }, -- preprocessor #if, #else, #endif, etc.
-  Type = { fg = p.purple }, -- int, long, char, etc.
+  Type = { fg = p.yellow }, -- int, long, char, etc.
   StorageClass = { fg = p.yellow }, -- static, register, volatile, etc.
   Structure = { fg = p.red }, -- struct, union, enum, etc.
   Special = { fg = p.blue }, -- any special symbol
