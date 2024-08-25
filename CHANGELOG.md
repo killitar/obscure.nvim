@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/killitar/obscure.nvim/compare/v1.5.0...v1.5.1) (2024-08-25)
+
+
+### Bug Fixes
+
+* **integrations:** fix telescope prompt border color ([34a80ea](https://github.com/killitar/obscure.nvim/commit/34a80ea4f6c1fac7790d1e79acc7b720293c021c))
+
 ## [1.5.0](https://github.com/killitar/obscure.nvim/compare/v1.4.0...v1.5.0) (2024-08-14)
 
 
