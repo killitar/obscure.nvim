@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/killitar/obscure.nvim/compare/v1.6.0...v1.7.0) (2024-08-25)
+
+
+### Features
+
+* **groups:** change color to Type syntax group ([663156b](https://github.com/killitar/obscure.nvim/commit/663156bdbed60003e756fc189bcf854efaa23179))
+* **groups:** improve interface highlighting ([ff89e27](https://github.com/killitar/obscure.nvim/commit/ff89e279d0219093b7255393cbdfc92ab4444e64))
+* **groups:** update highlighting groups ([7bae5c1](https://github.com/killitar/obscure.nvim/commit/7bae5c1d60af3c521049c2ea6fa29ea4e5de0a9b))
+* **integrations:** add highlight to keyword return ([e272969](https://github.com/killitar/obscure.nvim/commit/e2729699193a0b59a6473d0398f520313e351fcc))
+* **readme:** add new screenshots ([3176754](https://github.com/killitar/obscure.nvim/commit/3176754f140123eed70b386fefe7347f995881a4))
+* **readme:** update old screenshots ([4870c1a](https://github.com/killitar/obscure.nvim/commit/4870c1a7a16f2d13a8ecaeff643ce128ed6c5720))
+
 ## [1.6.0](https://github.com/killitar/obscure.nvim/compare/v1.5.1...v1.6.0) (2024-08-25)
 
 
