@@ -8,9 +8,17 @@ A dark [Neovim](https://github.com/neovim/neovim) theme written in [Lua](https:/
 
 ![Screenshot of obscure theme Lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/lua.png)
 
+### TypeScript
+
+![Screenshot of obscure theme TypeScript](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/ts.png)
+
 ### Astro
 
 ![Screenshot of obscure theme Astro](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/astro.png)
+
+### Markdown
+
+![Screenshot of obscure theme Markdown](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/markdown.png)
 
 ## ✨ Features
 
