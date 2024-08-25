@@ -11,7 +11,6 @@ local integrations_highlights = {
   flash = require("obscure.groups.integrations.flash"),
   gitsigns = require("obscure.groups.integrations.gitsigns"),
   hop = require("obscure.groups.integrations.hop"),
-  incline = require("obscure.groups.integrations.incline"),
   indent_blankline = require("obscure.groups.integrations.indent_blankline"),
   lazy = require("obscure.groups.integrations.lazy"),
   lsp = require("obscure.groups.integrations.lsp"),
