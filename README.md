@@ -6,11 +6,11 @@ A dark [Neovim](https://github.com/neovim/neovim) theme written in [Lua](https:/
 
 ### Lua
 
-![Screenshot of obscure theme lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/lua.png)
+![Screenshot of obscure theme Lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/lua.png)
 
 ### Astro
 
-![Screenshot of obscure theme lua](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/astro.png)
+![Screenshot of obscure theme Astro](https://raw.githubusercontent.com/killitar/obscure.nvim/main/.github/images/astro.png)
 
 ## ✨ Features
 
