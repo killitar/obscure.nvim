@@ -10,7 +10,8 @@ Table of Contents                                  *obscure-table-of-contents*
   - Installation                                |obscure-obscure-installation|
   - Usage                                              |obscure-obscure-usage|
   - Configuration                              |obscure-obscure-configuration|
-  - Extra                                              |obscure-obscure-extra|
+  - Overriding Colors & Highlight Groups|obscure-obscure-overriding-colors-&-highlight-groups|
+  - Acknowledgements                        |obscure-obscure-acknowledgements|
 2. Links                                                       |obscure-links|
 
 ==============================================================================
@@ -78,7 +79,7 @@ CONFIGURATION                                  *obscure-obscure-configuration*
 
 
   [!IMPORTANT] Set the configuration **BEFORE** loading the color scheme with
-  `colorscheme obscure`
+  `colorscheme obscure`.
 Default Options ~
 
 >lua
@@ -113,13 +114,14 @@ Default Options ~
           notify = true,
           rainbow_delimiters = true,
           telescope = true,
+          treesitter = true,
         },
         highlight_overrides = {},
       }
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS ~
+OVERRIDING COLORS & HIGHLIGHT GROUPS*obscure-obscure-overriding-colors-&-highlight-groups*
 
 To configure a setting, you should pass that setting with the changed value
 following the structure of the default configuration.
@@ -140,7 +142,7 @@ following the structure of the default configuration.
 <
 
 
-EXTRA                                                  *obscure-obscure-extra*
+EXTRACTING COLORS ~
 
 You can easily use the color palette for other plugins inside your Neovim
 <https://github.com/neovim/neovim> configuration:
@@ -150,6 +152,12 @@ You can easily use the color palette for other plugins inside your Neovim
     
     plugin.bg = colors.yellow
 <
+
+
+ACKNOWLEDGEMENTS                            *obscure-obscure-acknowledgements*
+
+- Tokyo Night <https://github.com/folke/tokyonight.nvim>
+- Mellow <https://github.com/mellow-theme/mellow.nvim>
 
 ==============================================================================
 2. Links                                                       *obscure-links*
