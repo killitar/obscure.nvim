@@ -62,6 +62,7 @@ return {
   ["@keyword.clojure"] = { fg = p.bright_red } + styles.keywords,
   ["@keyword.function"] = { fg = p.purple } + styles.functions,
   ["@keyword.import"] = { link = "Include" },
+  ["@keyword.return"] = { fg = p.orange } + styles.keywords,
   ["@keyword.storage"] = { link = "StorageClass" },
   ["@text.underline"] = { link = "Underlined" },
   ["@text.strong"] = { bold = true },
