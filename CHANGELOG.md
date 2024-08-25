@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/killitar/obscure.nvim/compare/v1.5.1...v1.6.0) (2024-08-25)
+
+
+### Features
+
+* **integrations:** remove unsed incline integration ([d1fd7cc](https://github.com/killitar/obscure.nvim/commit/d1fd7cc198b4a18ae241c6f1589157607b846409))
+
 ## [1.5.1](https://github.com/killitar/obscure.nvim/compare/v1.5.0...v1.5.1) (2024-08-25)
 
 
