@@ -1,4 +1,4 @@
-local p = require("obscure.palette").setup()
+local p = require("obscure.palettes").get_palette("obscure")
 
 return {
   MasonHeader = { fg = p.fg, bg = p.bg, bold = true },

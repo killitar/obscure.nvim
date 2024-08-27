@@ -1,4 +1,4 @@
-local p = require("obscure.palette").setup()
+local p = require("obscure.palettes").get_palette("obscure")
 
 return {
   FlashLabel = { fg = p.bright_green, bg = p.bg, bold = true },

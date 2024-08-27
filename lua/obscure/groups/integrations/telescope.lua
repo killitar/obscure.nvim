@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette").setup()
+local p = require("obscure.palettes").get_palette("obscure")
 
 return {
   TelescopeBorder = { link = "FloatBorder" },

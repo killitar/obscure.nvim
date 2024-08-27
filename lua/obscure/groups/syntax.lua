@@ -1,5 +1,5 @@
 local config = require("obscure.config")
-local p = require("obscure.palette").setup()
+local p = require("obscure.palettes").get_palette("obscure")
 
 local styles = vim.tbl_map(function(value)
   return setmetatable(value, {

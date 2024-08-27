@@ -1,4 +1,4 @@
-local p = require("obscure.palette").setup()
+local p = require("obscure.palettes").get_palette("obscure")
 
 return {
   IndentBlanklineChar = { fg = p.gray2 },
