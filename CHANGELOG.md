@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/killitar/obscure.nvim/compare/v1.7.0...v1.8.0) (2024-08-27)
+
+
+### Features
+
+* **palette:** improve extracting colors ([517ebfe](https://github.com/killitar/obscure.nvim/commit/517ebfe82e9cd2ed9e0db24b210e381fb01231f5))
+
 ## [1.7.0](https://github.com/killitar/obscure.nvim/compare/v1.6.0...v1.7.0) (2024-08-25)
 
 
