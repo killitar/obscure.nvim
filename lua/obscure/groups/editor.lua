@@ -36,6 +36,8 @@ return {
   CurSearch = { fg = p.black, bg = p.yellow }, -- 'cursearch' highlighting; also used for the text replaced with ":s///p"
   LineNr = { fg = p.gray4 }, -- Line number for " =number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
   CursorLineNr = { fg = p.subtext1, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+  LineNrAbove = { fg = p.gray4 },
+  LineNrBelow = { fg = p.gray4 },
   MatchParen = { fg = p.yellow, bg = p.gray3, bold = true }, -- The character under the cursor or just before it, if it is a paired bracket, and its match.
   ModeMsg = { fg = p.gray3, bold = true }, --' showmode' message (e.g., "-- INSERT --")
   MsgArea = { fg = p.subtext1 },
