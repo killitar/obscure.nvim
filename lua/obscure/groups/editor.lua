@@ -80,6 +80,6 @@ return {
   VisualNOS = { bg = p.gray4 }, -- Visual mode selection when vim is "Not Owning the Selection". Only X11 Gui's gui-x11 and xterm-clipboard supports this.
   WarningMsg = { fg = p.yellow }, -- warning messages
   WildMenu = { fg = p.black, bg = p.purple }, -- current match in 'wildmenu' completion
-  Winbar = { fg = p.fg, bg = p.gray1 }, -- Winbar
-  WinbarNC = { fg = p.subtext4, bg = p.bg_dark }, -- Winbar non-current windows.
+  Winbar = { link = "Statusline" }, -- Winbar
+  WinbarNC = { link = "StatusLineNC" }, -- Winbar non-current windows.
 }
