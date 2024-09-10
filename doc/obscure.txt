@@ -92,6 +92,7 @@ Default Options ~
       {
         transparent = false,
         terminal_colors = true,
+        dim_inactive = true,
         styles = {
           keywords = {},
           identifiers = {},
