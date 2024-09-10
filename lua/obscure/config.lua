@@ -3,6 +3,7 @@ local config = {}
 local default_config = {
   transparent = false,
   terminal_colors = true,
+  dim_inactive = true,
   styles = {
     keywords = {},
     identifiers = {},

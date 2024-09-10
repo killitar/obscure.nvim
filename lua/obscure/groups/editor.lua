@@ -41,7 +41,7 @@ return {
   MoreMsg = { fg = p.bright_magenta }, -- more-prompt
   NonText = { fg = p.subtext4 }, --'~' and '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., > displayed when a double-wide character doesn't fit at the end of the line).
   Normal = { fg = p.fg, bg = config.transparent and p.none or p.bg }, -- normal text
-  NormalNC = { fg = p.fg, bg = config.transparent and p.none or p.bg_dark }, -- normal text
+  NormalNC = { fg = p.fg, bg = config.transparent and p.none or config.dim_inactive and p.bg_dark or p.bg }, -- normal text
   NormalFloat = { fg = p.fg, bg = config.transparent and p.none or p.gray0 }, -- Normal text in floating windows.
   FloatBorder = { fg = p.gray3, bg = config.transparent and p.none or p.bg }, -- Border of floating windows.
   Pmenu = { fg = p.fg, bg = p.black }, -- Popup menu: normal item.

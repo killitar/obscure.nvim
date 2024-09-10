@@ -71,6 +71,7 @@ vim.cmd[[colorscheme obscure]]
   {
     transparent = false,
     terminal_colors = true,
+    dim_inactive = true,
     styles = {
       keywords = {},
       identifiers = {},
