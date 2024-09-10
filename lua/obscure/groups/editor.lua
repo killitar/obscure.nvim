@@ -64,7 +64,7 @@ return {
 
   --These groups are for StatusLine
   StatusLine = { fg = p.fg, bg = p.gray1 }, -- status line of current window
-  StatusLineNC = { fg = p.bg_dark }, -- status lines of not-current windows Note = if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+  StatusLineNC = { fg = p.bg_dark, bg = p.gray1 }, -- status lines of not-current windows Note = if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
   StatusLineTerm = { fg = p.fg, bg = p.gray1 }, -- status line of current :terminal window
   StatusLineTermNC = { fg = p.subtext4 }, -- status line of non-current  =terminal window
 
