@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.9.0](https://github.com/killitar/obscure.nvim/compare/v1.8.0...v1.9.0) (2024-09-10)
+
+
+### Features
+
+* **config:** add new option dim_inactive ([fab375c](https://github.com/killitar/obscure.nvim/commit/fab375c1fcf5684fbdd300e8f113a4541b4b2702))
+* **groups:** add highligh for MsgArea ([67c5399](https://github.com/killitar/obscure.nvim/commit/67c539988929743855f5a44f9f6d3a76f9990b1e))
+* **groups:** add new linenumber highlight ([61ee657](https://github.com/killitar/obscure.nvim/commit/61ee657836bff8109fa195da6270e5dfda885a44))
+* **groups:** bold text for matchparen and cursorline highlights ([f936531](https://github.com/killitar/obscure.nvim/commit/f936531392ee8e2e57ed45c739b3e4bf7c72c242))
+* **groups:** link winbar highlight to statusline highligth ([2d5594b](https://github.com/killitar/obscure.nvim/commit/2d5594b4414950b6d8516cdd6126ab775ddbae93))
+* **groups:** new colors for statusline highlight ([841eddd](https://github.com/killitar/obscure.nvim/commit/841edddd241b75e53a05c5f093e2e4996bda5464))
+
+
+### Bug Fixes
+
+* **groups:** statuscolumn [#13](https://github.com/killitar/obscure.nvim/issues/13) issue bug ([0dbb3e3](https://github.com/killitar/obscure.nvim/commit/0dbb3e3eb521b57e2ab589b18551831321f578ad))
+
 ## [1.8.0](https://github.com/killitar/obscure.nvim/compare/v1.7.0...v1.8.0) (2024-08-27)
 
 
