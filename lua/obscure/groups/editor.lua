@@ -30,8 +30,8 @@ return {
   VertSplit = { fg = p.gray2 }, -- the column separating vertically split windows
   WinSeparator = { fg = p.gray2 }, -- the column separating vertically split windows
   Folded = { fg = p.gray4 }, -- line used for closed folds
-  FoldColumn = { bg = config.transparent and p.none or p.bg, fg = p.subtext4 }, -- column where folds are displayed
-  SignColumn = { bg = config.transparent and p.none or p.bg, fg = p.subtext4 }, -- column where signs are displayed
+  FoldColumn = { bg = p.none, fg = p.subtext4 }, -- column where folds are displayed
+  SignColumn = { bg = p.none, fg = p.subtext4 }, -- column where signs are displayed
   IncSearch = { fg = p.black, bg = p.yellow }, -- 'incsearch' highlighting; also used for the text replaced with ":s///p"
   CurSearch = { fg = p.black, bg = p.yellow }, -- 'cursearch' highlighting; also used for the text replaced with ":s///p"
   LineNr = { fg = p.gray4 }, -- Line number for " =number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
