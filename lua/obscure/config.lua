@@ -1,5 +1,7 @@
+---@class config : ObscureConfig
 local config = {}
 
+---@class default_config : ObscureConfig
 local default_config = {
   transparent = false,
   terminal_colors = true,
@@ -49,6 +51,7 @@ local function deep_merge(destination, source)
 end
 
 -- Function to setup the configuration
+---@param user_config? ObscureConfig
 function config.setup(user_config)
   if not user_config then
     return
