@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/killitar/obscure.nvim/compare/v1.9.0...v1.10.0) (2024-09-12)
+
+
+### Features
+
+* **types:** add type annotations ([d9fc913](https://github.com/killitar/obscure.nvim/commit/d9fc913dab3e5d2188898e8a9fa00a8f26fa6c08))
+
 ## [1.9.0](https://github.com/killitar/obscure.nvim/compare/v1.8.0...v1.9.0) (2024-09-10)
 
 
