@@ -21,6 +21,7 @@ local default_config = {
     gitsigns = true,
     hop = true,
     indent_blankline = true,
+    indentmini = true,
     lazy = true,
     lsp = true,
     markdown = true,
