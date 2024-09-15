@@ -19,6 +19,7 @@ local integrations_highlights = {
   mason = require("obscure.groups.integrations.mason"),
   mini_files = require("obscure.groups.integrations.mini_files"),
   mini_icons = require("obscure.groups.integrations.mini_icons"),
+  mini_indentscope = require("obscure.groups.integrations.mini_indentscope"),
   navic = require("obscure.groups.integrations.navic"),
   neo_tree = require("obscure.groups.integrations.neo_tree"),
   neorg = require("obscure.groups.integrations.neorg"),

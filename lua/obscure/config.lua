@@ -28,6 +28,7 @@ local default_config = {
     mason = true,
     mini_files = true,
     mini_icons = true,
+    mini_indentscope = true,
     navic = true,
     neo_tree = true,
     neorg = true,
