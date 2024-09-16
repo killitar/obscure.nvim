@@ -1,15 +1,8 @@
 local M = {}
 
-function M.colorscheme()
-  vim.cmd("hi clear")
-
-  if vim.fn.exists("syntax_on") then
-    vim.cmd("syntax reset")
-  end
-  vim.background = "dark"
-  vim.termguicolors = true
-  vim.g.colors_name = "obscure"
-  require("obscure.highlights").setup()
+function M.load()
+  local opts = require("obscure.config")
+  return require("obscure.highlights").setup(opts)
 end
 
 M.setup = require("obscure.config").setup

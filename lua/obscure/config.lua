@@ -1,75 +1,60 @@
----@class config : ObscureConfig
-local config = {}
+local M = {}
 
----@class default_config : ObscureConfig
-local default_config = {
+---@class obscure.Config
+---@field on_highlights fun(highlights: obscure.Highlights, colors: ColorScheme)
+M.defaults = {
   transparent = false,
   terminal_colors = true,
   dim_inactive = true,
   styles = {
-    keywords = {},
+    keywords = { italic = true },
     identifiers = {},
     functions = {},
     variables = {},
     booleans = {},
-    comments = {},
+    comments = { italic = true },
   },
-  integrations = {
-    alpha = true,
-    cmp = true,
-    flash = true,
-    gitsigns = true,
-    hop = true,
-    indent_blankline = true,
-    indentmini = true,
-    lazy = true,
-    lsp = true,
-    markdown = true,
-    mason = true,
-    mini_animate = true,
-    mini_files = true,
-    mini_icons = true,
-    mini_indentscope = true,
-    navic = true,
-    neo_tree = true,
-    neorg = true,
-    noice = true,
-    notify = true,
-    rainbow_delimiters = true,
-    telescope = true,
-    treesitter = true,
+
+  --- You can override specific highlights to use other groups or a hex color
+  --- function will be called with a Highlights and ColorScheme table
+  ---@param highlights obscure.Highlights
+  ---@param colors ColorScheme
+  on_highlights = function(highlights, colors) end,
+
+  ---@type table<string, boolean|{enabled:boolean}>
+  plugins = {
+    -- enable all plugins when not using lazy.nvim
+    -- set to false to manually enable/disable plugins
+    all = package.loaded.lazy == nil,
+    -- uses your plugin manager to automatically enable needed plugins
+    -- currently only lazy.nvim is supported
+    auto = true,
+    -- add any plugins here that you want to enable
+    -- for all possible plugins, see:
+    --   * https://github.com/killitar/obscure.nvim/tree/main/lua/obscure/groups
+    -- flash = true,
   },
-  highlight_overrides = {},
 }
 
--- Helper function to deeply merge tables
-local function deep_merge(destination, source)
-  for key, value in pairs(source) do
-    if type(value) == "table" and type(destination[key]) == "table" then
-      deep_merge(destination[key], value)
-    else
-      destination[key] = value
-    end
-  end
+---@type obscure.Config
+M.options = nil
+
+---@param options? obscure.Config
+function M.setup(options)
+  M.options = vim.tbl_deep_extend("force", {}, M.defaults, options or {})
 end
 
--- Function to setup the configuration
----@param user_config? ObscureConfig
-function config.setup(user_config)
-  if not user_config then
-    return
-  end
-
-  for key, value in pairs(user_config) do
-    if key == "integrations" or key == "styles" then
-      deep_merge(default_config[key], value)
-    else
-      default_config[key] = value
-    end
-  end
+---@param opts? obscure.Config
+function M.extend(opts)
+  return opts and vim.tbl_deep_extend("force", {}, M.options, opts) or M.options
 end
 
--- Metatable to fallback to default_config for missing values
-setmetatable(config, { __index = default_config })
+setmetatable(M, {
+  __index = function(_, k)
+    if k == "options" then
+      return M.defaults
+    end
+  end,
+})
 
-return config
+return M
