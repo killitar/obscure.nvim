@@ -5,6 +5,7 @@ M.fg = "#ffffff"
 M.day_brightness = 0.3
 
 local uv = vim.uv or vim.loop
+
 ---@param c  string
 local function rgb(c)
   c = string.lower(c)
@@ -23,6 +24,9 @@ function M.mod(modname)
   return ret
 end
 
+---@param foreground string foreground color
+---@param background string background color
+---@param alpha number|string number between 0 and 1. 0 results in bg, 1 results in fg
 function M.blend(foreground, alpha, background)
   alpha = type(alpha) == "string" and (tonumber(alpha, 16) / 0xff) or alpha
   local bg = rgb(background)
@@ -46,7 +50,7 @@ function M.blend_fg(hex, amount, fg)
 end
 M.lighten = M.blend_fg
 
----@param color string
+---@param color string|Palette
 function M.invert(color)
   if type(color) == "table" then
     for key, value in pairs(color) do
@@ -66,6 +70,7 @@ function M.invert(color)
   return color
 end
 
+---@param groups obscure.Highlights
 ---@return table<string, vim.api.keyset.highlight>
 function M.resolve(groups)
   for _, hl in pairs(groups) do
