@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.11.0](https://github.com/killitar/obscure.nvim/compare/v1.10.0...v1.11.0) (2024-09-16)
+
+
+### Features
+
+* **plugins:** add integration for indenmini ([6eac721](https://github.com/killitar/obscure.nvim/commit/6eac721a3fd710ec83f3941b7b932b8a46ee57b8))
+* **plugins:** add integration for mini-animate ([a524475](https://github.com/killitar/obscure.nvim/commit/a524475dc51f66e92182280f63862f4b4c8b51fa))
+* **plugins:** add integration to mini-indentscope ([f31d621](https://github.com/killitar/obscure.nvim/commit/f31d621ed9e208fc4a0d0155197d2f9e907db4f5))
+* **plugins:** update integration for indent-blankline ([d64af8e](https://github.com/killitar/obscure.nvim/commit/d64af8ec610e36359412d9acc203a447630001f5))
+
 ## [1.10.0](https://github.com/killitar/obscure.nvim/compare/v1.9.0...v1.10.0) (2024-09-12)
 
 
