@@ -1,3 +1,6 @@
+local Config = require("obscure.config")
+local Util = require("obscure.util")
+
 local M = {}
 
 M.plugins = {
@@ -23,9 +26,23 @@ M.plugins = {
   ["telescope.nvim"] = "telescope",
 }
 
+local me = debug.getinfo(1, "S").source:sub(2)
+me = vim.fn.fnamemodify(me, ":h")
+
+function M.get_group(name)
+  return Util.mod("obscure.groups." .. name)
+end
+
+function M.get(name, colors, opts)
+  local mod = M.get_group(name)
+  return mod.get(colors, opts)
+end
+
 function M.setup(colors, opts)
   local groups = {
-    syntax = true,
+    base = true,
+    semantic_tokens = true,
+    treesitter = true,
   }
   if opts.plugins.all then
     for _, group in pairs(M.plugins) do
@@ -64,7 +81,19 @@ function M.setup(colors, opts)
   local names = vim.tbl_keys(groups)
   table.sort(names)
 
-  return groups
+  local ret = {}
+
+  for group in pairs(groups) do
+    for k, v in pairs(M.get(group, colors, opts)) do
+      ret[k] = v
+    end
+  end
+
+  Util.resolve(ret)
+
+  opts.on_highlights(ret, colors)
+
+  return ret, groups
 end
 
 return M
