@@ -1,37 +1,6 @@
----@class Styles
----@field keywords table
----@field identifiers table
----@field functions table
----@field variables table
----@field booleans table
----@field comments table
+---@class obscure.Highlight: vim.api.keyset.highlight
+---@field style? vim.api.keyset.highlight
 
----@class Integrations
----@field alpha boolean
----@field cmp boolean
----@field flash boolean
----@field gitsigns boolean
----@field hop boolean
----@field indent_blankline boolean
----@field lazy boolean
----@field lsp boolean
----@field markdown boolean
----@field mason boolean
----@field mini_files boolean
----@field mini_icons boolean
----@field navic boolean
----@field neo_tree boolean
----@field neorg boolean
----@field noice boolean
----@field notify boolean
----@field rainbow_delimiters boolean
----@field telescope boolean
----@field treesitter boolean
+---@alias obscure.Highlights table<string,obscure.Highlight|string>
 
----@class ObscureConfig
----@field transparent boolean?
----@field terminal_colors boolean?
----@field dim_inactive boolean?
----@field styles Styles?
----@field integrations Integrations?
----@field highlight_overrides table?
+---@alias obscure.HighlightsFn fun(colors: ColorScheme, opts:obscure.Config):obscure.Highlights
