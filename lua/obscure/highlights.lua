@@ -16,6 +16,7 @@ local integrations_highlights = {
   lsp = require("obscure.groups.integrations.lsp"),
   markdown = require("obscure.groups.integrations.markdown"),
   mason = require("obscure.groups.integrations.mason"),
+  mini_animate = require("obscure.groups.integrations.mini_animate"),
   mini_files = require("obscure.groups.integrations.mini_files"),
   mini_icons = require("obscure.groups.integrations.mini_icons"),
   navic = require("obscure.groups.integrations.navic"),

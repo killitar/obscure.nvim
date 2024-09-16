@@ -25,6 +25,7 @@ local default_config = {
     lsp = true,
     markdown = true,
     mason = true,
+    mini_animate = true,
     mini_files = true,
     mini_icons = true,
     navic = true,
