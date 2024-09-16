@@ -1,1 +1,1 @@
-require("obscure").colorscheme()
+require("obscure").load()
