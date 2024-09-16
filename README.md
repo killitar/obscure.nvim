@@ -68,42 +68,37 @@ vim.cmd[[colorscheme obscure]]
   <!-- config:start -->
 
 ```lua
-  {
-    transparent = false,
-    terminal_colors = true,
-    dim_inactive = true,
-    styles = {
-      keywords = {},
-      identifiers = {},
-      functions = {},
-      variables = {},
-      booleans = {},
-      comments = {},
-    },
-    integrations = {
-      alpha = true,
-      cmp = true,
-      flash = true,
-      gitsigns = true,
-      hop = true,
-      indent_blankline = true,
-      lazy = true,
-      lsp = true,
-      markdown = true,
-      mason = true,
-      mini_files = true,
-      mini_icons = true,
-      navic = true,
-      neo_tree = true,
-      neorg = true,
-      noice = true,
-      notify = true,
-      rainbow_delimiters = true,
-      telescope = true,
-      treesitter = true,
-    },
-    highlight_overrides = {},
-  }
+{
+  transparent = false,
+  terminal_colors = true,
+  dim_inactive = true,
+  styles = {
+    keywords = { italic = true },
+    identifiers = {},
+    functions = {},
+    variables = {},
+    booleans = {},
+    comments = { italic = true },
+  },
+
+  --- You can override specific highlights to use other groups or a hex color
+  --- function will be called with a Highlights and ColorScheme table
+  on_highlights = function(highlights, colors) end,
+
+  plugins = {
+    -- enable all plugins when not using lazy.nvim
+    -- set to false to manually enable/disable plugins
+    all = package.loaded.lazy == nil,
+    -- uses your plugin manager to automatically enable needed plugins
+    -- currently only lazy.nvim is supported
+    auto = true,
+    -- add any plugins here that you want to enable
+    -- for all possible plugins, see:
+    --   * https://github.com/killitar/obscure.nvim/tree/main/lua/obscure/groups
+    -- flash = true,
+  },
+}
+
 ```
 
   <!-- config:end -->
@@ -118,17 +113,15 @@ require("obscure").setup({
     styles = {
         booleans = { italic = true, bold = true },
     },
-    integrations = {
-        noice = false,
-        telescope = false,
-    },
-    highlight_overrides = {
-        Comment = { bg = "#ffffff" }
-    }
+    on_highlights = function(hl,c)
+        hl.Comment = { fg = "#ffffff" }
+        -- Or
+        hl.Comment = { fg = c.orange }
+    end
 })
 ```
 
-### Extracting colors
+## 🧵 Extra
 
 You can easily use the color palette for other plugins inside your [Neovim](https://github.com/neovim/neovim) configuration:
 
