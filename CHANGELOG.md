@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.0.0](https://github.com/killitar/obscure.nvim/compare/v1.11.0...v2.0.0) (2024-09-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* rewrite load fonction
+* rewrite highlights
+* rewrite plugins integrations
+* rewrite config
+
+### Features
+
+* **palletes:** add type class ([d594398](https://github.com/killitar/obscure.nvim/commit/d59439815846364a675e005714420c4880388cd5))
+* rewrite config ([7a38a77](https://github.com/killitar/obscure.nvim/commit/7a38a779c02a327fe55824e6bb8d26a518fc5bad))
+* rewrite highlights ([c39dce3](https://github.com/killitar/obscure.nvim/commit/c39dce3fbf893cfbcb8b25bb9d48ddab19ec4807))
+* rewrite load fonction ([f5b64f3](https://github.com/killitar/obscure.nvim/commit/f5b64f341547e624ba1a1d94e339448dbda55410))
+* rewrite plugins integrations ([9056713](https://github.com/killitar/obscure.nvim/commit/90567130cf289a3ab4be069463ed9a3f9f0a0b51))
+* **types:** rewrite types ([eeb095b](https://github.com/killitar/obscure.nvim/commit/eeb095bc6c47b352189f4688276b2baeac83e580))
+* **types:** use types for palette ([f564563](https://github.com/killitar/obscure.nvim/commit/f564563e9a6f7954e2845cc74695b43ce4c6e641))
+* **utils:** add types for utils ([3add8b3](https://github.com/killitar/obscure.nvim/commit/3add8b3058d28069ff6bb8d9ddcb9f53b66552ed))
+* **utils:** add utils functions ([f206ab3](https://github.com/killitar/obscure.nvim/commit/f206ab30c76730da358566ed734e7f06e5dd9843))
+
+
+### Bug Fixes
+
+* **plugins:** fix indentmini highlight ([a700076](https://github.com/killitar/obscure.nvim/commit/a7000762bfcf70d3191b783f0d550c8322b545ea))
+* **plugins:** fix mini-animate highlight ([9cfd804](https://github.com/killitar/obscure.nvim/commit/9cfd804c83661430b1c9eb74eb6893e4d78fba46))
+* **plugins:** fix mini-indentscope highlight ([5eaa3d7](https://github.com/killitar/obscure.nvim/commit/5eaa3d72a5d515c91b05ded292629b1c771e6238))
+
 ## [1.11.0](https://github.com/killitar/obscure.nvim/compare/v1.10.0...v1.11.0) (2024-09-16)
 
 
