@@ -1,4 +1,3 @@
-local Config = require("obscure.config")
 local Util = require("obscure.util")
 
 local M = {}
