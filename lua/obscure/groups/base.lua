@@ -1,3 +1,5 @@
+local Util = require("obscure.util")
+
 local M = {}
 
 function M.get(c, opts)
@@ -29,6 +31,10 @@ function M.get(c, opts)
     DiagnosticWarn = { fg = c.yellow },
     DiagnosticInfo = { fg = c.purple },
     DiagnosticHint = { fg = c.cyan },
+    DiagnosticVirtualTextError = { bg = Util.blend_bg(c.red, 0.1), fg = c.red }, -- Used for "Error" diagnostic virtual text
+    DiagnosticVirtualTextWarn = { bg = Util.blend_bg(c.yellow, 0.1), fg = c.yellow }, -- Used for "Warning" diagnostic virtual text
+    DiagnosticVirtualTextInfo = { bg = Util.blend_bg(c.purple, 0.1), fg = c.purple }, -- Used for "Information" diagnostic virtual text
+    DiagnosticVirtualTextHint = { bg = Util.blend_bg(c.cyan, 0.1), fg = c.cyan }, -- Used for "Hint" diagnostic virtual text
     DiagnosticUnderlineError = { sp = c.red, undercurl = true },
     DiagnosticUnderlineWarn = { sp = c.yellow, undercurl = true },
     DiagnosticUnderlineInfo = { sp = c.purple, undercurl = true },
