@@ -134,6 +134,11 @@ function M.get(c, opts)
     htmlTagN = { fg = c.subtext1 },
     htmlTagName = { fg = c.red }, -- tag text
 
+    -- Health
+    healthError = { fg = c.red },
+    healthSuccess = { fg = c.green },
+    healthWarning = { fg = c.yellow },
+
     -- Diff
     diffAdded = { fg = c.bright_green },
     diffRemoved = { fg = c.bright_orange },
