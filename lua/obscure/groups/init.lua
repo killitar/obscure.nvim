@@ -23,6 +23,7 @@ M.plugins = {
   ["nvim-notify"] = "notify",
   ["rainbow-delimeters"] = "rainbow_delimiters",
   ["telescope.nvim"] = "telescope",
+  ["which-key.nvim"] = "which-key",
 }
 
 local me = debug.getinfo(1, "S").source:sub(2)
