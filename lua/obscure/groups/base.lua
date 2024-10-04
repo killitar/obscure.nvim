@@ -129,6 +129,7 @@ function M.get(c, opts)
     SpecialComment = { fg = c.subtext4 }, -- special things inside a comment
     Debug = { fg = c.yellow }, -- debugging statements
     Underlined = { underline = true }, -- text that stands out, HTML links
+    Bold = { bold = true, fg = c.fg }, -- (preferred) any bold text
     Error = { fg = c.orange }, -- any erroneous construct
     Todo = { fg = c.yellow }, -- anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
