@@ -41,7 +41,8 @@ end
 
 function M.setup(colors, opts)
   local groups = {
-    base = true,
+    editor = true,
+    syntax = true,
     semantic_tokens = true,
     treesitter = true,
   }
