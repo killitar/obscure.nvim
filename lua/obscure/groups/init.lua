@@ -15,6 +15,7 @@ M.plugins = {
   ["mini.files"] = "mini_files",
   ["mini.icons"] = "mini_icons",
   ["mini.indentscope"] = "mini_indentscope",
+  ["mini.starter"] = "mini_starter",
   ["neo-tree.nvim"] = "neo_tree",
   ["neorg"] = "neorg",
   ["noice.nvim"] = "noice",
