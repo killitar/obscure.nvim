@@ -42,7 +42,7 @@ function M.get(c, opts)
     ["@variable.builtin"] = { fg = c.purple, style = opts.styles.variables },
     ["@variable.parameter"] = { fg = c.magenta, style = opts.styles.variables },
     ["@variable.member"] = { fg = c.yellow },
-    ["@variable.member.vue"] = { fg = c.bright_purple },
+    ["@variable.member.vue"] = { fg = c.purple },
     ["@constructor.javascript"] = { fg = c.red },
     ["@function"] = "Function",
     ["@function.builtin"] = "Special",
