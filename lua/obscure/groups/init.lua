@@ -4,6 +4,7 @@ local M = {}
 
 M.plugins = {
   ["alpha-nvim"] = "alpha",
+  ["blink.cmp"] = "blink_cmp",
   ["dashboard-nvim"] = "dashboard",
   ["flash.nvim"] = "flash",
   ["gitsigns.nvim"] = "gitsigns",
