@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/killitar/obscure.nvim/compare/v3.0.0...v3.1.0) (2024-10-08)
+
+
+### Features
+
+* **treesitter:** update `variable.member.vue` highlight color ([2b04dc3](https://github.com/killitar/obscure.nvim/commit/2b04dc3fe196962d242562fe4b201b55aa7ad330))
+
 ## [3.0.0](https://github.com/killitar/obscure.nvim/compare/v2.1.0...v3.0.0) (2024-10-08)
 
 
