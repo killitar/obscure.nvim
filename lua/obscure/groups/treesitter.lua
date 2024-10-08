@@ -20,6 +20,7 @@ function M.get(c, opts)
     ["@constructor.tsx"] = { fg = c.blue },
     ["@namespace"] = { fg = c.red, italic = true },
     ["@parameter"] = { fg = c.magenta },
+    ["@operator"] = { fg = c.purple },
     ["@property"] = { fg = c.yellow },
     ["@punctuation"] = { fg = c.subtext1 },
     ["@punctuation.delimiter"] = { fg = c.subtext1 },
