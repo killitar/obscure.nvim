@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.1.0](https://github.com/killitar/obscure.nvim/compare/v2.0.0...v2.1.0) (2024-10-08)
+
+
+### Features
+
+* **base:** add highlight groups for health ([b0480b3](https://github.com/killitar/obscure.nvim/commit/b0480b3aac25d11b4176f5b67d64f0ea41c12972))
+* **base:** highlight for diagnostic virtual text ([7a76fd8](https://github.com/killitar/obscure.nvim/commit/7a76fd810965c51a284cd34a4eb4c1ef98505a3b))
+* **blink.cmp:** add integration for `blink.cmp` ([ebaa6b8](https://github.com/killitar/obscure.nvim/commit/ebaa6b86555f4e86bf436bec76727865bc7453fa))
+* **dashboard:** integration `dashboard.nvim` plugin ([4eb835e](https://github.com/killitar/obscure.nvim/commit/4eb835e702e779c56c7a0361e47b9f919b7031fa))
+* **groups:** add missing Bold highlight group ([b106fd3](https://github.com/killitar/obscure.nvim/commit/b106fd380715cdcacf4d666bdf6d8e22186a2d73))
+* **groups:** integration `which-key.nvim` plugin ([04cb190](https://github.com/killitar/obscure.nvim/commit/04cb190a0a227554fb03c143523cc74d2585a63a))
+* **groups:** sort highlights groups ([11c907a](https://github.com/killitar/obscure.nvim/commit/11c907ab78bf82089074b7e48023e5bd8187d8a7))
+* **groups:** update cmp.nvim, noice.nvim highligh groups ([1bf7d6f](https://github.com/killitar/obscure.nvim/commit/1bf7d6f7fdf192b05cb09a465f2b8fdfcb30e621))
+* **groups:** update flash.nvim highlight groups ([e82fe93](https://github.com/killitar/obscure.nvim/commit/e82fe9369ea4d26e0f34b2047fdec75eda989f69))
+* **mini_starter:** add integration for `mini.starter` ([564fb11](https://github.com/killitar/obscure.nvim/commit/564fb11122175e2e2ad24543ba2cc3210822b4d5))
+* **which-key:** add missing `WhichKeyNormal` highlight group ([dad15bb](https://github.com/killitar/obscure.nvim/commit/dad15bbc44fafc2bcb7239423f062d0d5833b548))
+
 ## [2.0.0](https://github.com/killitar/obscure.nvim/compare/v1.11.0...v2.0.0) (2024-09-17)
 
 
