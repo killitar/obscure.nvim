@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.2.0](https://github.com/killitar/obscure.nvim/compare/v3.1.0...v3.2.0) (2024-10-09)
+
+
+### Features
+
+* **lspsaga:** add integration for `lspsaga.nvim` ([83c95b3](https://github.com/killitar/obscure.nvim/commit/83c95b31a11ec8acccd2c8d973d0641384b10f34))
+* **semantic_tokes:** add missing highlight groups ([0e7fdde](https://github.com/killitar/obscure.nvim/commit/0e7fdde0a279743ed9702b2b2b7288df066f1635))
+* **treesitter:** add missing highlight group ([a311793](https://github.com/killitar/obscure.nvim/commit/a31179304d0460f205f4fb52d50203eb3ba02f7a))
+* **treesitter:** change `markup.heading` color ([2d4b331](https://github.com/killitar/obscure.nvim/commit/2d4b331e9627849b70f74e45f5438c5912dfeb35))
+* **treesitter:** change `markup.link` color ([a66040a](https://github.com/killitar/obscure.nvim/commit/a66040a5c791df035a584e25ea9610133458e11b))
+
 ## [3.1.0](https://github.com/killitar/obscure.nvim/compare/v3.0.0...v3.1.0) (2024-10-08)
 
 
