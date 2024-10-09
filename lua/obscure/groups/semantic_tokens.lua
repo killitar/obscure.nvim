@@ -18,7 +18,6 @@ function M.get(c)
     ["@lsp.type.namespace"] = "@namespace",
     ["@lsp.type.namespace.python"] = "@variable",
     ["@lsp.type.number"] = "@number",
-    -- ["@lsp.type.member"] = { link = "@property" },
     ["@lsp.type.operator"] = "@operator",
     ["@lsp.type.parameter"] = "@variable.parameter",
     ["@lsp.type.property"] = "@property",
