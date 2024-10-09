@@ -36,13 +36,17 @@ function M.get(c)
     ["@lsp.typemod.function.defaultLibrary"] = "@function.builtin",
     ["@lsp.typemod.interface.declaration"] = "Type",
     ["@lsp.typemod.keyword.async"] = "@keyword.coroutine",
+    ["@lsp.typemod.keyword.injected"] = "@keyword",
     ["@lsp.typemod.macro.defaultLibrary"] = "@function.builtin",
     ["@lsp.typemod.method.defaultLibrary"] = "@function.builtin",
     ["@lsp.typemod.operator.injected"] = "@operator",
     ["@lsp.typemod.string.injected"] = "@string",
+    ["@lsp.typemod.struct.defaultLibrary"] = "@type.builtin",
     ["@lsp.typemod.type.defaultLibrary"] = { fg = c.purple },
+    ["@lsp.typemod.variable.callable"] = "@function",
     ["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
     ["@lsp.typemod.variable.injected"] = "@variable",
+    ["@lsp.typemod.variable.static"] = "@constant",
   }
 end
 
