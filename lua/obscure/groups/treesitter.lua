@@ -80,7 +80,7 @@ function M.get(c, opts)
     ["@markup.heading.6"] = { fg = c.blue, bold = true },
     ["@markup.heading.6.marker"] = "@comment",
     ["@markup.link"] = { fg = c.subtext1 },
-    ["@markup.link.label"] = { fg = c.red },
+    ["@markup.link.label"] = { fg = c.orange },
     ["@markup.link.url"] = { fg = c.purple },
     ["@markup.list"] = { fg = c.subtext4, bold = true },
     ["@markup.list.checked"] = { fg = c.subtext4 },
