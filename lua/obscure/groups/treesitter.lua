@@ -67,7 +67,7 @@ function M.get(c, opts)
     ["@module"] = "Include",
     ["@module.builtin"] = { fg = c.purple },
     ["@markup.heading"] = { fg = c.fg, bold = true },
-    ["@markup.heading.1"] = { fg = c.blue, bold = true },
+    ["@markup.heading.1"] = { fg = c.purple, bold = true },
     ["@markup.heading.1.marker"] = "@comment",
     ["@markup.heading.2"] = { fg = c.blue, bold = true },
     ["@markup.heading.2.marker"] = "@comment",
