@@ -12,6 +12,7 @@ M.plugins = {
   ["indent-blankline.nvim"] = "indent_blankline",
   ["indentmini.nvim"] = "indentmini",
   ["lazy.nvim"] = "lazy",
+  ["lspsaga.nvim"] = "lspsaga",
   ["mason.nvim"] = "mason",
   ["mini.animate"] = "mini_animate",
   ["mini.files"] = "mini_files",
