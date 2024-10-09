@@ -57,6 +57,7 @@ function M.get(c, opts)
     ["@keyword.clojure"] = { fg = c.bright_red, style = opts.styles.keywords },
     ["@keyword.function"] = { fg = c.purple, style = opts.styles.functions },
     ["@keyword.import"] = "Include",
+    ["@keyword.operator"] = "@operator",
     ["@keyword.return"] = { fg = c.orange, style = opts.styles.keywords },
     ["@keyword.storage"] = "StorageClass",
     ["@text.underline"] = "Underlined",
