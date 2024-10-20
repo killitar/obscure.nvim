@@ -6,6 +6,7 @@ M.defaults = {
   transparent = false,
   terminal_colors = true,
   dim_inactive = true,
+  hl_statuscolumn_cursorline = false, -- highlight statuscolumn groups (default false)
   styles = {
     keywords = { italic = true },
     identifiers = {},

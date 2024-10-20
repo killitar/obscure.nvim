@@ -32,7 +32,9 @@ function M.get(c, opts)
 
     -- Lines
     CursorLine = { bg = c.gray1 }, -- the screen line that the cursor is in when 'cursorline' is set
-    CursorLineNr = { fg = c.subtext1, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+    CursorLineSign = opts.hl_statuscolumn_cursorline and { bg = c.gray5 } or nil,
+    CursorLineFold = opts.hl_statuscolumn_cursorline and { bg = c.gray5 } or nil,
+    CursorLineNr = opts.hl_statuscolumn_cursorline and { fg = c.subtext1, bg = c.gray5, bold = true } or { fg = c.subtext1, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     Folded = { fg = c.gray4 }, -- line used for closed folds
     LineNr = { fg = c.gray4 }, -- Line number for " =number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove = { fg = c.gray4 },
