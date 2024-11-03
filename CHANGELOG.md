@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/killitar/obscure.nvim/compare/v3.2.0...v3.3.0) (2024-11-03)
+
+
+### Features
+
+* **blink_cmp:** add `BlinkCmpGhostText` highlight group ([17cda9c](https://github.com/killitar/obscure.nvim/commit/17cda9c64e3534510668881f6e7637b8d88390cf))
+
 ## [3.2.0](https://github.com/killitar/obscure.nvim/compare/v3.1.0...v3.2.0) (2024-10-09)
 
 
