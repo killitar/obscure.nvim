@@ -8,6 +8,7 @@ function M.get(c)
     BlinkCmpLabel = { fg = c.subtext1 },
     BlinkCmpLabelDepricated = { fg = c.subtext1, strikethrough = true },
     BlinkCmpLabelMatch = { fg = c.blue, bold = true },
+    BlinkCmpGhostText = { fg = c.subtext3 },
     BlinkCmpDoc = { bg = c.bg },
     BlinkCmpDocBorder = { fg = c.gray3 },
     BlinkCmpSignatureHelpBorder = { fg = c.gray3 },
