@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/killitar/obscure.nvim/compare/v3.3.0...v3.4.0) (2024-12-31)
+
+
+### Features
+
+* integration `snacks.nvim` ([bf99a7a](https://github.com/killitar/obscure.nvim/commit/bf99a7a363a27f9a16ccd0073f3c4a07a41d384a))
+
 ## [3.3.0](https://github.com/killitar/obscure.nvim/compare/v3.2.0...v3.3.0) (2024-11-03)
 
 
