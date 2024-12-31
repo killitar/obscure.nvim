@@ -26,6 +26,7 @@ M.plugins = {
   ["nvim-cmp"] = "cmp",
   ["nvim-notify"] = "notify",
   ["rainbow-delimeters"] = "rainbow_delimiters",
+  ["snacks.nvim"] = "snacks",
   ["telescope.nvim"] = "telescope",
   ["which-key.nvim"] = "which-key",
 }
