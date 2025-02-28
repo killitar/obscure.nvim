@@ -20,6 +20,7 @@ function M.get(c)
     BlinkCmpKindField = { fg = c.magenta },
     BlinkCmpKindConstant = { fg = c.orange },
     BlinkCmpKindMethod = { fg = c.cyan },
+    BlinkCmpSource = { bg = c.bg }
   }
 end
 
