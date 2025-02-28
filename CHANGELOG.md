@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/killitar/obscure.nvim/compare/v3.4.0...v3.4.1) (2025-02-28)
+
+
+### Bug Fixes
+
+* **groups:** blink-cmp [#30](https://github.com/killitar/obscure.nvim/issues/30) issue bug ([5f14bd6](https://github.com/killitar/obscure.nvim/commit/5f14bd6b3090f8093dcda07a35126020d40780b0))
+
 ## [3.4.0](https://github.com/killitar/obscure.nvim/compare/v3.3.0...v3.4.0) (2024-12-31)
 
 
