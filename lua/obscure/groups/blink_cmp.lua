@@ -12,6 +12,7 @@ function M.get(c)
     BlinkCmpDoc = { bg = c.bg },
     BlinkCmpDocBorder = { fg = c.gray3 },
     BlinkCmpSignatureHelpBorder = { fg = c.gray3 },
+    BlinkCmpKind = { bg = c.bg },
     BlinkCmpKindText = { fg = c.subtext1 },
     BlinkCmpKindFunction = { fg = c.red },
     BlinkCmpKindVariable = { fg = c.purple },
