@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.2](https://github.com/killitar/obscure.nvim/compare/v3.4.1...v3.4.2) (2025-07-26)
+
+
+### Bug Fixes
+
+* **groups:** blink-cmp [#34](https://github.com/killitar/obscure.nvim/issues/34) issue bug ([c53baea](https://github.com/killitar/obscure.nvim/commit/c53baeac87df44085223a6e0641805af80255dbc))
+* **groups:** fix `BlinkCmpKind` background color fix ([cd88304](https://github.com/killitar/obscure.nvim/commit/cd88304216d0b0b3b6f5a38380b79daaec962e00))
+* **readme:** fix markdown screenshot ([d477548](https://github.com/killitar/obscure.nvim/commit/d4775483a30151dea1ceb843e3e210cdefeb3e9f))
+
 ## [3.4.1](https://github.com/killitar/obscure.nvim/compare/v3.4.0...v3.4.1) (2025-02-28)
 
 
