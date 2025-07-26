@@ -7,3 +7,5 @@
 foo.*
 node_modules
 tt.*
+.vscode/
+.DS_Store
